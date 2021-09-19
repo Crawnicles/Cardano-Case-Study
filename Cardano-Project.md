@@ -42,6 +42,7 @@ Whereas the proof of work model forces every node to have the entire copy of the
 - Transactions/second
 - Network Bandwidth
 - Data Scale
+
 <br/>
 
 ### Interoperability
@@ -77,14 +78,18 @@ Where should we go?
  - Soft Forks 
  : a change to the software protocol where only previously valid transaction blocks are made invalid. Because old nodes will recognize the new blocks as valid, a soft fork is backwards-compatible. This kind of fork requires only a majority of the miners upgrading to enforce the new rules, as opposed to a hard fork that requires all nodes to upgrade and agree on the new version.
 
- <img src = "Cardano Resources/Soft Fork.png">
+
+
+
+![Soft Fork](https://user-images.githubusercontent.com/90283529/133914587-e84d34c3-f80f-4171-b27e-316d4866591c.png)
+
 
  
  - Hard Forks 
  :is a radical change to a network's protocol that makes previously invalid blocks and transactions valid, or vice-versa. A hard fork requires all nodes or users to upgrade to the latest version of the protocol software.
 
 
-<img src = "Cardano Resources/Hard Fork.png">
+![Hard Fork](https://user-images.githubusercontent.com/90283529/133914582-522f3c58-fef8-4d35-aa37-ccad96f8a514.png)
 
 
 <br/>
@@ -261,7 +266,7 @@ Joining overledger is comparable to giving your computer access to the internet.
 White Paper Overledger definition 
 > Overledger can be described as a sorted list of messages which satisfy a set of unambiguous properties. A set of properties define the valid format of a message, how to build the fingerprint and other requirements dependant on the methods required. A transaction must contain the fingerprint of a valid message to be considered part of an Overledger application. The list of these messages defines what we call the Messaging Layer of Overledger. Another set of rules determines how to sort the valid messages in a sorted list we called the Ordering and Filtering Layer. A system using Overledger reacts to this sequence and can change its state. Any change in one of these sets of rules results in a different list of messages, or a different permutation. More systems, with different control logic, can share the same Overledger if they respect the same rules. "
 
-<img src = "Cardano Resources/Overledger.png">
+![Overledger](https://user-images.githubusercontent.com/90283529/133914585-e92461fd-8eca-4ca8-ab8f-17d3fbc45d32.png)
 
 Say Dennis and Randi have a smart contract
 
